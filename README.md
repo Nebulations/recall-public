@@ -32,7 +32,7 @@ There is also no mobile UI.
 
 Users can paste in their class notes or upload documents to create a room. Once the room is created, the user can start a study session. This study session has analytics and tracks how many questions were generated, how many were answered, and what streak the user currently has. Once the session ends, those analytics are stored in the database and displayed to the user. The user can then restart their study session or change topics and learn more about it, which closes the learning loop. Basically:
 
-<p align="center"><img width="700" src="diagrams/learning_flow.png"</p> />
+<p align="center"><img width="700" src="diagrams/learning_flow.png"</p>
 
 If the user quits during a study session, attempting to start a new one will simply redirect the user to the old one, preventing duplicate/ghost sessions.
 
